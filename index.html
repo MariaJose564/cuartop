@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>hola</title>
+	<font face="Cooper Black"><center><h1>Condicionales en Excel</h1></center></font>
+	<style>
+
+		.papa{
+			background: peachpuff;
+			position: absolute;
+			left: 160px;
+			width: 200px;
+			height: 100px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+		}
+		.hijo{
+			background: red;
+			position: absolute;
+			left: 70px;
+			top:150px;
+			width: 1000px;
+			height: 400px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+			display: none;
+			border: solid 3px black;
+		}
+
+		.papa:hover .hijo {
+			background: pink;
+			display: block;
+			color: black;
+		}
+
+
+ 
+
+		.papa1{
+			background: peachpuff;
+			position: absolute;
+			left: 400px;
+			width: 200px;
+			height: 100px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+		}
+
+		.hijo1{
+			background: red;
+			position: absolute;
+			left: -130px;
+			top:140px;
+			width: 1000px;
+			height: 400px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+			display: none;
+			border: solid 3px black;
+		}
+
+		.papa1:hover .hijo1 {
+			background: cyan;
+			display: block;
+			color: black;
+		}
+
+
+		.papa2{
+			background: peachpuff;
+			position: absolute;
+			left: 650px;
+			width: 200px;
+			height: 100px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+		}
+
+		.hijo2{
+			background: red;
+			position: absolute;
+			left: -360px;
+			top:140px;
+			width: 1000px;
+			height: 500px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+			display: none;
+			border: solid 3px black;
+		}
+
+		.papa2:hover .hijo2 {
+			background: magenta;
+			display: block;
+			color: black;
+		}
+
+
+
+
+	</style>
+</head>
+<body bgcolor="#F6CEEC">
+	<div class="papa">
+		<font face="Cooper Black"><center><h1>¿Que es?</h1></center></font>
+		<div class="hijo">
+			<font face="Arial" size="6px">Un condicional es una herramienta que nos permite crear con
+			ayuda de formulas, calculos y asi tambien nos ayuda a poder
+			identificar patrones.
+			<br>
+			Los condicionales nos ayudan a cumplir con alguna condicion que se haya
+			determinado gracias al usuario y asi estas nos permiten que se
+		    al pie de la letra. </font>
+
+
+		</div>
+	</div>
+
+
+		  <div class="papa1">
+		  <font face="Cooper Black"><center><h1>¿Como Usarlo?</h1></center></font>
+		  
+		  <div class="hijo1">
+		  	<font face="Arial" size="6px">
+		  	Para esto debemos colocar el signo <<=>>, despues un "si", antes de seguir
+		  	se debe tener clara que condicion quiere realizar; suma, resta, multiplicacion
+		  	o division; despues se seleccionan las celdas con las que se trabajara, ahora
+		  	se coloca mayor o menor que, ponemos un punto y coma se pone el caso verdadero
+		    entre comillas, se pone otro punto y coma y luego se pone el caso falso tambien
+		    entre comillas, para darle fin a la condicion solo se cierran los parentesis.  </font>
+		  </div>
+		  </div>
+
+		  <div class="papa2">
+		  	<font face="Cooper Black"><center><h1>Un Ejemplo Escrito</h1></center></font>
+		  
+		  	<div class="hijo2">
+		  	<font face="Arial" size="6px">
+		  	En clase nos enseñaron muchos ejemplos, de acuerdo a eso me invente uno sencillo:
+		  	<br>
+		  	Los estudiantes del grado Once necesitan saber si su promedio en general es lo 
+		  	suficientemente alto como para ganar una beca cada uno, cada quien hizo unas 
+		    pruebas	y sus puntajes fueron: 3.2, 4.5, 5.0, 2.4, 1.9.
+		    <br>
+		    Ahora se deben sumar todos los puntajes para ver si su promedio pudo lograr el
+		    objetivo, entonces teniendo en cuenta el funcionamiento de las condicionales, yo
+		    lo haria asi en excel:
+		    <br>
+		    Se pone =si, luego pongo las celdas en donde estan los puntajes le pongo el signo
+		    en mi caso el "<" despues el ";" luego el caso verdadero que puse "gano" y el otro
+		    despues del ";" "perdio". </font>
+		  	</div>
+		  </div>
+
+
+
+
+</body>
+</html>
